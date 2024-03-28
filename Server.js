@@ -1,7 +1,10 @@
 const express = require('express')
 const app = express()
-const port = 3000
 const db = require('./db')
+require('dotenv').config();
+
+
+const port = process.env.PORT_VAL || 3000
 
 
 const bodyParser = require('body-parser')
@@ -32,4 +35,4 @@ app.listen(port, () => {
 })
 
 
-// Comment added for next version
+// Comment added for testing projectf
