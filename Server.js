@@ -14,7 +14,7 @@ app.use(bodyParser.json()); // req.body
 
 
 app.get('/', (req, res) => {
-    res.send('Welcome to my Crib... How i can i help you?, we have menu list')
+    res.send('Welcome to my Hotel... How i can i help you?, we have menu list')
 })
 
 
