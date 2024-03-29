@@ -11,34 +11,34 @@ const personSchema = new mongoose.Schema({
     },
     age: {
         type: Number
-    },
-    work: {
-        type: String,
-        enum: ['chef', 'manager', 'waiter', 'Other'],
-        required: true
-    },
-    mobile: {
-        type: String
-    },
-    email: {
-        type: String,
-        required: true,
-        unique: true // It means that email should be unique
-    },
-    address: {
-        type: String
-    },
-    salary: {
-        type: Number
-    },
-    username: {
-        type: String,
-        required: true
-    },
-    password: {
-        type: String,
-        required: true
     }
+    // work: {
+    //     type: String,
+    //     enum: ['chef', 'manager', 'waiter', 'Other'],
+    //     required: true
+    // },
+    // mobile: {
+    //     type: String
+    // },
+    // email: {
+    //     type: String,
+    //     required: true,
+    //     unique: true // It means that email should be unique
+    // },
+    // address: {
+    //     type: String
+    // },
+    // salary: {
+    //     type: Number
+    // },
+    // username: {
+    //     type: String,
+    //     required: true
+    // },
+    // password: {
+    //     type: String,
+    //     required: true
+    // }
 })
 
 
